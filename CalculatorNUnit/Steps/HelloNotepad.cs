@@ -17,7 +17,5 @@ namespace CalculatorNUnit.Steps
             executeNote.PerfomrAddition();
             executeNote.ReplaceWord();
         }
-
-
     }
 }
