@@ -19,7 +19,7 @@ namespace CalculatorNUnit.Hooks
         public void TestSetup()
         {
             AppiumOptions Options = new AppiumOptions();
-            Options.AddAdditionalCapability("app", "C:\\Windows\\System32\\notepad.exe");
+            Options.AddAdditionalCapability("app", "C:\\Windows\\System32\\notepad");
             Options.AddAdditionalCapability("deviceName", "WindowsPc");
             BasePage.DesktopSession = new WindowsDriver<WindowsElement>(new Uri(DriverUrl), Options);
            //Assert.IsNotNull(DesktopSession);
