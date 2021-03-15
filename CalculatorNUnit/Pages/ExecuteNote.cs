@@ -9,7 +9,7 @@ namespace CalculatorNUnit.Pages
     public class ExecuteNote : Base.BasePage
     {
         public WindowsElement NotepadTextArea = DesktopSession.FindElementByAccessibilityId("15");
-        public WindowsElement EditButton = DesktopSession.FindElementByName("Edición");
+        public WindowsElement EditButton = DesktopSession.FindElementByName("Edició");
         //public WindowsElement ReplaceButton = DesktopSession.FindElementByAccessibilityId("23");
         //public WindowsElement FindWhatInput = DesktopSession.FindElementByAccessibilityId("1152");
         //public WindowsElement ReplaceWithInput = DesktopSession.FindElementByAccessibilityId("1153");
